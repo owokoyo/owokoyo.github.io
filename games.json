@@ -91,13 +91,6 @@
       "Link":"https://studio.code.org/projects/gamelab/B_6nbJRnUjvXEd-nM56v6t0iBxf3SJDeE-oQ3cfWIQQ"
    },
    {
-      "Name":"Bullet Hazards 2",
-      "Status":"Discontinued",
-      "Description":"Bullet Hell Project I worked during the summer and during the start of high school. I never got around to completing it because I couldn't synchronize the sound with the game, the frame rates were exceptionally low, and level design was too hard.",
-      "Thumbnail":"./gamethumbnails/bh2.png",
-      "Link":"https://studio.code.org/projects/gamelab/GQA58292jtq4hyq0BEH-eGJD2PVG3veVEXdE79Hp0w8"
-   },
-   {
       "Name":"Alien Defense",
       "Status":"Idle",
       "Description":"I decided to remake PVZ on gamelab. It was fairly easy and the only problem were the sprites. I used aliens in place of zombies and random sprites in place of plants. I did cut some corners in terms of plants and enemies since I was bored.<br><br>However the end result was a game that was remixed so many times nobody even knows who made it to begin with. Unfortunately JSON is super easy to understand, and whoever decided to edit the recharge found themselves with a sunflower/generator spewing out sun like crazy.",
@@ -190,16 +183,6 @@
       "Link":"https://studio.code.org/projects/gamelab/nNdVobNIe5oY_nsZpUk-cwEFHXT4LDoE9gEyF6C2fpk"
    },
    {
-      "Name":"Games",
-      "Status":"Discontinued",
-      "Description":"I tried putting all my games in one single place. I had to constantly put this in front of everything and it didn't work out.",
-      "Uses":[
-         "Xenon"
-      ],
-      "Thumbnail":"./gamethumbnails/games.png",
-      "Link":"https://studio.code.org/projects/gamelab/75HxN2zFXQFjQVUmIwLHOji5DZjFb7XKr2FfEgxbtK8"
-   },
-   {
       "Name":"Cupcake Clicker",
       "Status":"Complete",
       "Description":"Click on the cupcake to generate lime! Use the lime to buy upgrades that make lime even when you aren't clicking!",
@@ -208,26 +191,5 @@
       ],
       "Thumbnail":"./gamethumbnails/cupcake.png",
       "Link":"https://studio.code.org/projects/gamelab/W5YOMgdlc1vPYARi5gMItudYF8UXqnOlojefUgnKgHA"
-   },
-   {
-      "Name":"The Factory",
-      "Status":"Complete",
-      "Description":"I tried making factorio in code.org to an extent. It did work and what happened next was a tycoon game that was only fun for the first 3 minutes.",
-      "Uses":[
-         "Xenon"
-      ],
-      "Thumbnail":"./gamethumbnails/factory.png",
-      "Link":"https://studio.code.org/projects/gamelab/tXN9t-MLrNvslnzQyXGd8lVp949u1DXBdVdUOUPvDNg"
-   },
-   {
-      "Name":"Codebeats",
-      "Status":"Complete",
-      "Description":"Robeats inspired rhythm game",
-      "Uses":[
-         "React",
-         "UI5"
-      ],
-      "Thumbnail":"https://studio.code.org/v3/files/ewAGpR26AcZHkRaHDFtWlKvB7MPNZXuEWMupo89bBSo/.metadata/thumbnail.png",
-      "Link":"https://studio.code.org/projects/gamelab/ewAGpR26AcZHkRaHDFtWlKvB7MPNZXuEWMupo89bBSo"
    }
 ]
