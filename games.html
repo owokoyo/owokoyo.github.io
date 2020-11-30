@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>List of Owokoyo's Games (on code.org)</title>
+    <template id = "template">
+      <div class = "game">
+        <div class = "title"><span class = "titlename"></span> <a target="_blank" rel="noopener noreferrer" class = "titlelink">Play</a></div>
+        <p class = "desc"></p>
+        <div class = "statusdisplay"></div>
+        <div class = "badgecontainer"></div>
+        <img class="thumbnail">
+      </div>
+      <a class = "badge">YES</a>
+    </template>
+    <script>
+      window.addEventListener('load', ()=>{
+        const hoverdisp = document.getElementById("hoverdisplay");
+        const tempgame = document.getElementById("template").content.querySelector(".game");
+        const tempbadge = document.getElementById("template").content.querySelector(".badge");
+        const templatecontainer = document.getElementById("itemcontainer");
+        const oReq = new XMLHttpRequest();
+        var selected;
+        oReq.addEventListener("load", function() {
+            const games = JSON.parse(oReq.response);
+            for (let game of games) {
+              let gamenode = document.importNode(tempgame, true)
+              templatecontainer.appendChild(gamenode);
+              if (game.Uses) {
+                for (let mod of game.Uses) {
+                  let badge = document.importNode(tempbadge, true)
+                  badge.title = "Library: "+mod;
+                  badge.addEventListener("mouseenter", function(e){
+                    console.log(e);
+                    selected = badge;
+                    hoverdisplay.left = e.screenX;
+                    hoverdisplay.top = e.screenY;
+                    hoverdisp.display = "inline"
+                  });
+                  badge.addEventListener("mouseleave", function(){
+                    if (selected===badge) {
+                      selected = undefined;
+                      hoverdisp.display = "none"
+                    };
+                  });
+                  gamenode.getElementsByClassName("badgecontainer")[0].appendChild(badge);
+                  badge.innerHTML = mod;
+                }
+              } else {
+                gamenode.getElementsByClassName("badgecontainer")[0].classList.add("hidden")
+              }
+              if (game.Thumbnail){
+                gamenode.getElementsByClassName("thumbnail")[0].src = game.Thumbnail
+              } else {
+                gamenode.getElementsByClassName("thumbnail")[0].classList.add("hidden")
+              }
+              gamenode.getElementsByClassName("statusdisplay")[0].innerHTML = game.Status;
+              gamenode.getElementsByClassName("statusdisplay")[0].classList.add(game.Status);
+              gamenode.getElementsByClassName("desc")[0].innerHTML = game.Description;
+              gamenode.getElementsByClassName("titlename")[0].innerHTML = game.Name;
+              gamenode.getElementsByClassName("titlelink")[0].href = game.Link;
+              gamenode.getElementsByClassName("titlelink")[0].title = "Click Me to Play: "+game.Name;
+            }
+        })
+        oReq.open("GET", "./games.json");
+        oReq.send();
+
+      });
+    </script>
+  </head>
+  <body>
+    <div id = "pageheader"><p id = "pagetitle">Owokoyo's Games</p>
+    <p id = "pagenote">Here lies all my games.<br>Most of them are cringe cause i'm bad at art.<br>Email: infinitestasis@gmail.com<br>Discord: at#5005<br>Github: Owokoyo</p>
+    </div>
+    <div><a href="/goodGames" style="margin:20px;color:#00FFFF;text-decoration:none;"><b>See games by other people &gt;</b></a></div>
+    <div id="itemcontainer">
+    </div>
+    <div id = "hoverdisplay">Library thingy</div>
+  </body>
+</html>

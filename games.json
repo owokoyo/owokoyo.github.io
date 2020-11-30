@@ -1,0 +1,233 @@
+[
+   {
+      "Name":"Connect 4",
+      "Status":"Complete",
+      "Description":"A working connect 4 game with AI of varying difficulty. Singleplayer has been brought back because its no longer featured which should lower traffic.",
+      "Uses":[
+         "React",
+         "UI5",
+         "Ocelot"
+      ],
+      "Thumbnail":"./gamethumbnails/con4.png",
+      "Link":"https://studio.code.org/projects/gamelab/ORO1hN_A4PlY_ME5ppJ8xaI0_yo4aUmSeb6cAuqPFMg"
+   },
+   {
+      "Name":"Online Maze",
+      "Status":"Complete",
+      "Description":"The first MMO game in code.org. You need at least 3 people to win.",
+      "Uses":[
+         "React",
+         "UI5",
+         "Ocelot"
+      ],
+      "Thumbnail":"./gamethumbnails/onlinemaze.png",
+      "Link":"https://studio.code.org/projects/gamelab/hImYKusk-B0n86V8E4RfRFrOgLeGNA6pGJ4q_QPRteY"
+   },
+   {
+      "Name":"Casual Key Game",
+      "Status":"Complete",
+      "Description":"A game about pressing keys. That's it. Might turn it into some kind of level some day.",
+      "Uses":[
+         "React",
+         "UI5",
+         "Ocelot"
+      ],
+      "Thumbnail":"./gamethumbnails/casualkeygame.png",
+      "Link":"https://studio.code.org/projects/gamelab/npZEsUM5IHePpom8PZa7ZrS2VVIkUs8Et8_mdxqFm6E"
+   },
+   {
+      "Name":"Visual Novel Test",
+      "Status":"Complete",
+      "Description":"Visual novel test. Self explanatory. Has 2 endings, both of which are boring.",
+      "Uses":[
+         "React",
+         "UI5"
+      ],
+      "Thumbnail":"https://studio.code.org/v3/files/6JGFZVPMsCbiIDZ6JMzTm1jWwVCzPerLX1Vl5ZAMGeU/.metadata/thumbnail.png",
+      "Link":"https://studio.code.org/projects/gamelab/6JGFZVPMsCbiIDZ6JMzTm1jWwVCzPerLX1Vl5ZAMGeU"
+   },
+   {
+      "Name":"Get Roblox Bio",
+      "Status":"Complete",
+      "Description":"Gets the about description of a roblox user's profile page. This project was meant to be a test for PNGRequest and external sites.",
+      "Uses":[
+         "Ocelot",
+         "React",
+         "UI5"
+      ],
+      "Thumbnail":"https://studio.code.org/v3/files/wl3YZW4oui0IkMai0Mg26lZ9XYAeB0T79tYAy8N9m1k/.metadata/thumbnail.png",
+      "Link":"https://studio.code.org/projects/gamelab/wl3YZW4oui0IkMai0Mg26lZ9XYAeB0T79tYAy8N9m1k"
+   },
+   {
+      "Name":"3D BUFF noob",
+      "Status":"Complete",
+      "Description":"A project that used WEBGL to render a noob model I serialized from Roblox Studio. While the project is complete, I know there are a lot of things I can do with a 3d renderer.",
+      "Uses":[
+         "React"
+      ],
+      "Thumbnail":"./gamethumbnails/buffnoob.png",
+      "Link":"https://studio.code.org/projects/gamelab/-_4vcVK7Pk5t4UwY_CyZ6cV6ByBgWXQ_15WH4-WXWhQ"
+   },
+   {
+      "Name":"fps shooter",
+      "Status":"Complete",
+      "Description":"3D game where you shoot aliens in a series of increasingly difficult (and laggier) waves. There are power-ups and guns and different enemies.",
+      "Uses":[
+         "React",
+         "UI5"
+      ],
+      "Thumbnail":"./gamethumbnails/fps.png",
+      "Link":"https://studio.code.org/projects/gamelab/6qekKhQe84F5nHbngcICzVQCebG_Vh7MiSHfLC86o6E"
+   },
+   {
+      "Name":"Alchemy",
+      "Status":"Idle",
+      "Description":"Based on little alchemy, where you combine elements to create new elements and so on.",
+      "Uses":[
+         "React",
+         "UI5"
+      ],
+      "Thumbnail":"./gamethumbnails/alchemy.png",
+      "Link":"https://studio.code.org/projects/gamelab/B_6nbJRnUjvXEd-nM56v6t0iBxf3SJDeE-oQ3cfWIQQ"
+   },
+   {
+      "Name":"Bullet Hazards 2",
+      "Status":"Discontinued",
+      "Description":"Bullet Hell Project I worked during the summer and during the start of high school. I never got around to completing it because I couldn't synchronize the sound with the game, the frame rates were exceptionally low, and level design was too hard.",
+      "Thumbnail":"./gamethumbnails/bh2.png",
+      "Link":"https://studio.code.org/projects/gamelab/GQA58292jtq4hyq0BEH-eGJD2PVG3veVEXdE79Hp0w8"
+   },
+   {
+      "Name":"Alien Defense",
+      "Status":"Idle",
+      "Description":"I decided to remake PVZ on gamelab. It was fairly easy and the only problem were the sprites. I used aliens in place of zombies and random sprites in place of plants. I did cut some corners in terms of plants and enemies since I was bored.<br><br>However the end result was a game that was remixed so many times nobody even knows who made it to begin with. Unfortunately JSON is super easy to understand, and whoever decided to edit the recharge found themselves with a sunflower/generator spewing out sun like crazy.",
+      "Uses":[
+         "UI5",
+         "React"
+      ],
+      "Thumbnail":"./gamethumbnails/aliendefense.png",
+      "Link":"https://studio.code.org/projects/gamelab/xNEXXKbtICF6TO-NqtTNmh8v-Q-wmtEKRv6JUnFE6Ow"
+   },
+   {
+      "Name":"Space",
+      "Status":"Complete",
+      "Description":"A working game in 3D where you can talk with NPCs and explore. Though devoid of any gameplay, it was still fun to see a working 3D game.",
+      "Uses":[
+         "Neon"
+      ],
+      "Thumbnail":"./gamethumbnails/space.png",
+      "Link":"https://studio.code.org/projects/gamelab/Dn0KLM1siyqR1mqOdtdSnUckiLc5geyrxeFmvnQcJcA"
+   },
+   {
+      "Name":"Will it Crash Simulator",
+      "Status":"Complete",
+      "Description":"A project that simulated the Will it Crash? activity. It was written so one could copy and paste instructions directly and test out the 'robot' in real time.",
+      "Thumbnail":"./gamethumbnails/willitcrashsim.png",
+      "Link":"https://studio.code.org/projects/gamelab/znrQhtg3UkNFTebhquvT1bWFtDxFRe-G9Qmwb7rRNgY"
+   },
+   {
+      "Name":"Infinite Puzzle",
+      "Status":"Complete",
+      "Description":"A lights out puzzle game that grew increasingly complex the more levels you did. Unfortunately randomSeed wasn't working so when a level was reset it was always different.",
+      "Thumbnail":"./gamethumbnails/puzzle.png",
+      "Link":"https://studio.code.org/projects/gamelab/6Y8_oqbhHMS6NdpqnEJxLKqDKD8X7YtVTpY3NMuvaas"
+   },
+   {
+      "Name":"Color Conqueror: Game Lab",
+      "Status":"Complete",
+      "Description":"A remastered version of an app lab project of the same name. It was a 3 player game where you tried to make a 2x2 square of your color.",
+      "Uses":[
+         "UI2"
+      ],
+      "Thumbnail":"./gamethumbnails/ccr.png",
+      "Link":"https://studio.code.org/projects/gamelab/TS52dknKXKoo26rTzXvzQ4vh8imdsmwBnKSjFM652lw"
+   },
+   {
+      "Name":"Bullet Hazards",
+      "Status":"Deprecated",
+      "Description":"Bullet Hell project, predecessor to the more complex Bullet Hazards 2",
+      "Uses":[
+         "Xenon"
+      ],
+      "Thumbnail":"./gamethumbnails/bh1.png",
+      "Link":"https://studio.code.org/projects/gamelab/ypTueKxWRiisI886KNjdOVwh48DLraGUKw6reZ6suLU"
+   },
+   {
+      "Name":"Platformer",
+      "Status":"Complete",
+      "Description":"A neat little spriteless platformer game. This is the first time I learned about how much better sprite collisions were compared to custom collisions.",
+      "Thumbnail":"./gamethumbnails/platformer.png",
+      "Link":"https://studio.code.org/projects/gamelab/r91IVJj5UREQwbxs8o-A8Y8WfgMJ0iS_rCj3Kip7Vzw"
+   },
+   {
+      "Name":"Draw",
+      "Status":"Complete",
+      "Description":"A project where you could create artwork and submit it to a gallery. Naturally it didn't work out as people were sending inappropriate stuff.",
+      "Uses":[
+         "UI2"
+      ],
+      "Thumbnail":"./gamethumbnails/draw.png",
+      "Link":"https://studio.code.org/projects/gamelab/iRwktF_9NSFsBRa9dHAd7Fqg7Y00TASR2j-D32XklJE"
+   },
+   {
+      "Name":"Pixels",
+      "Status":"Complete",
+      "Description":"A pixel art creator featuring colors, erasers, dimensions, and saves. Slows down easily though, that's why the best you can do is a 16x16 image.",
+      "Uses":[
+         "UI2"
+      ],
+      "Thumbnail":"./gamethumbnails/pixels.png",
+      "Link":"https://studio.code.org/projects/gamelab/2nOSpI5H1_6burcFBM9UpXKstCsfPAq9_tfomVq-Uaw"
+   },
+   {
+      "Name":"Math Game",
+      "Status":"Complete",
+      "Description":"One of my first games. A math app where you choose the correct answer out of 3 other wrong answers. Features addition, subtraction, and multiplication. Also has various difficulties.",
+      "Uses":[
+         "UI1"
+      ],
+      "Thumbnail":"./gamethumbnails/math.png",
+      "Link":"https://studio.code.org/projects/gamelab/nNdVobNIe5oY_nsZpUk-cwEFHXT4LDoE9gEyF6C2fpk"
+   },
+   {
+      "Name":"Games",
+      "Status":"Discontinued",
+      "Description":"I tried putting all my games in one single place. I had to constantly put this in front of everything and it didn't work out.",
+      "Uses":[
+         "Xenon"
+      ],
+      "Thumbnail":"./gamethumbnails/games.png",
+      "Link":"https://studio.code.org/projects/gamelab/75HxN2zFXQFjQVUmIwLHOji5DZjFb7XKr2FfEgxbtK8"
+   },
+   {
+      "Name":"Cupcake Clicker",
+      "Status":"Complete",
+      "Description":"Click on the cupcake to generate lime! Use the lime to buy upgrades that make lime even when you aren't clicking!",
+      "Uses":[
+         "Xenon"
+      ],
+      "Thumbnail":"./gamethumbnails/cupcake.png",
+      "Link":"https://studio.code.org/projects/gamelab/W5YOMgdlc1vPYARi5gMItudYF8UXqnOlojefUgnKgHA"
+   },
+   {
+      "Name":"The Factory",
+      "Status":"Complete",
+      "Description":"I tried making factorio in code.org to an extent. It did work and what happened next was a tycoon game that was only fun for the first 3 minutes.",
+      "Uses":[
+         "Xenon"
+      ],
+      "Thumbnail":"./gamethumbnails/factory.png",
+      "Link":"https://studio.code.org/projects/gamelab/tXN9t-MLrNvslnzQyXGd8lVp949u1DXBdVdUOUPvDNg"
+   },
+   {
+      "Name":"Codebeats",
+      "Status":"Complete",
+      "Description":"Robeats inspired rhythm game",
+      "Uses":[
+         "React",
+         "UI5"
+      ],
+      "Thumbnail":"https://studio.code.org/v3/files/ewAGpR26AcZHkRaHDFtWlKvB7MPNZXuEWMupo89bBSo/.metadata/thumbnail.png",
+      "Link":"https://studio.code.org/projects/gamelab/ewAGpR26AcZHkRaHDFtWlKvB7MPNZXuEWMupo89bBSo"
+   }
+]

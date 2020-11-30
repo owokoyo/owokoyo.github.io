@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Games that are good.</title>
+    <template id = "template">
+      <div class = "game">
+        <div class = "title"><span class = "titlename"></span> <a target="_blank" rel="noopener noreferrer" class = "titlelink">Play</a></div>
+        <p class = "desc"></p>
+        <div class = "creatordisplay"></div>
+        <div class = "disclaimer"></div>
+        <img class="thumbnail">
+      </div>
+    </template>
+    <script>
+      window.addEventListener('load', ()=>{
+        const tempgame = document.getElementById("template").content.querySelector(".game");
+        const templatecontainer = document.getElementById("itemcontainer");
+        const oReq = new XMLHttpRequest();
+        var selected;
+        oReq.addEventListener("load", function() {
+            const games = JSON.parse(oReq.response);
+            for (let game of games) {
+              let gamenode = document.importNode(tempgame, true)
+              templatecontainer.appendChild(gamenode);
+              if (game.Thumbnail){
+                gamenode.getElementsByClassName("thumbnail")[0].src = game.Thumbnail
+              } else {
+                gamenode.getElementsByClassName("thumbnail")[0].classList.add("hidden")
+              }
+              if (game.Disclaimer) {
+                gamenode.getElementsByClassName("disclaimer")[0].innerHTML = game.Disclaimer;
+              } else {
+                gamenode.getElementsByClassName("disclaimer")[0].classList.add("hidden");
+              }
+
+              gamenode.getElementsByClassName("creatordisplay")[0].innerHTML = game.Creator;
+              gamenode.getElementsByClassName("desc")[0].innerHTML = game.Description;
+              gamenode.getElementsByClassName("titlename")[0].innerHTML = game.Name;
+              gamenode.getElementsByClassName("titlelink")[0].href = game.Link;
+              gamenode.getElementsByClassName("titlelink")[0].title = "Click Me to Play: "+game.Name;
+            }
+        })
+        oReq.open("GET", "./goodGames.json");
+        oReq.send();
+      });
+    </script>
+  </head>
+  <body>
+    <div id = "pageheader"><p id = "pagetitle">Good code.org games</p>
+    <p id = "pagenote">Games I like or think should stand out. <br>Contact me via <a href="mailto:infinitestasis@gmail.com">Email</a> or <a href="https://discord.gg/uuZevAt9t4">Discord</a> if you:<br>1. Created it and don't want it here.<br>2. Is not the correct version.<br>3. Created it and are not creditted properly.<br>4. Want a game featured here<br>5. Just want to contact me in general.</p>
+    </div>
+    <div><a href="/games" style="margin:20px;color:#00FFFF;text-decoration:none;"><b>See my games</b></a></div>
+    <div id="itemcontainer">
+    </div>
+    <div id = "hoverdisplay">Library thingy</div>
+  </body>
+</html>

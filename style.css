@@ -1,0 +1,144 @@
+* {
+  font-family: "arial";
+}
+body {
+  background-color: #2f3f42
+}
+#pagetitle {
+  color: #FFF;
+  font-size: 40px;
+  font-weight:bold;
+  margin: 20px;
+  float: left;
+}
+.hidden {
+  display: none;
+}
+.title {
+  margin: 10px;
+  font-size: 25px;
+  border-bottom: 1px dashed #CCCCCC;
+  white-space: pre;
+}
+.titlename {
+  width: auto;
+  margin: 0px;
+  display: inline-block;
+  width: auto;
+}
+.badgecontainer::before {
+  font-weight: bold;
+  content: "Libraries: ";
+}
+.statusdisplay::before {
+  font-weight: bold;
+  color: #000;
+  content: "Status: ";
+}
+.statusdisplay.Complete{
+  color: #0C0
+}
+.statusdisplay.Idle{
+  color: #FC0
+}
+.statusdisplay.Discontinued,.statusdisplay.Deprecated{
+  color: #F00
+}
+.creatordisplay::before {
+  font-weight: bold;
+  color: #000;
+  content: "Creator: ";
+}
+.disclaimer::before {
+  font-weight: bold;
+  color: #000;
+  content: "DISCLAIMER: ";
+}
+.thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  width: 70%;
+  height: auto;
+  overflow-y: hidden;
+}
+.badgecontainer {
+  padding-bottom: 5px;
+}
+.badgecontainer,.statusdisplay,.creatordisplay,.disclaimer {
+  margin: inherit;
+}
+.badge:focus {
+  outline: 0;
+}
+.badge:hover {
+  cursor: pointer;
+}
+.badge {
+  padding: 2px;
+  font-size: 80%;
+  margin-right: 3px;
+  margin-bottom:10px;
+  display: inline;
+  border-radius: 5px;
+  background-color: cyan;
+  border: 0px;
+}
+
+#itemcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titlelink:focus {
+  outline:0;
+}
+.titlelink:hover {
+  background-color: #7B7
+}
+.titlelink {
+  float: right;
+  text-decoration: none;
+  color: #354d56;
+  background-color: #9D9;
+  margin: 0px 8px;
+  padding: 2px;
+  font-size: 80%;
+  border-radius: 5px;
+  position: absolute;
+  right: 0px;
+  transition: background-color .5s;
+}
+#hoverdisplay {
+  position: absolute;
+  display: none;
+}
+.game {
+  position: relative;
+  min-width: 300px;
+  max-width: 500px;
+  background-color: #EEE;
+  margin: 10px;
+  border-radius: 5px;
+  flex: 1 2 30%;
+}
+.desc {
+  margin: inherit;
+}
+body > p {
+  display: inline-block;
+}
+#pageheader {
+  width: 100%;
+  overflow: auto;
+}
+#pageheader > * {
+  display: inline;
+}
+#pagenote {
+  position: absolute;
+  right: 20px;
+  float:right;
+  color: black;
+  font-size: 12px;
+}
